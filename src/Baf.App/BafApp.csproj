@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>Avolutions.BafApp</RootNamespace>
-    <AssemblyName>Avolutions.BafApp</AssemblyName>
+    <RootNamespace>BafApp</RootNamespace>
+    <AssemblyName>BafApp</AssemblyName>
   </PropertyGroup>
 </Project>

@@ -1,0 +1,27 @@
+# Build artifacts
+bin/
+obj/
+nupkgs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+*.userprefs
+*.dbmdl
+*.opendb
+*.VC.db
+*.VC.opendb
+*.rsuser
+*.sdf
+*.cachefile
+
+# JetBrains Rider
+.idea/
+*.iml
