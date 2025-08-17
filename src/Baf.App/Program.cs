@@ -1,4 +1,6 @@
-namespace Avolutions.BafApp;
+using System;
+
+namespace BafApp;
 
 public static class Program
 {

@@ -13,10 +13,10 @@
   "name": "Avolutions BAF App",
   "preferNameDirectory": true,
   "primaryOutputs": [
-    { "path": "Avolutions.BafApp.csproj" }
+    { "path": "BafApp.csproj" }
   ],
   "shortName": "baf",
-  "sourceName": "Avolutions.BafApp",
+  "sourceName": "BafApp",
   "tags": {
     "language": "C#",
     "type": "project" },
