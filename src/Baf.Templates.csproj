@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+
+    <PackageType>Template</PackageType>
+    <PackageId>Avolutions.Baf.Templates</PackageId>
+    <Version>0.1.0</Version>
+
+    <Title>Avolutions BAF Templates</Title>
+    <Company>Avolutions</Company>
+    <Authors>Alexander Vogt</Authors>
+    <Description>Templates to create pre configured app with BAF.</Description>
+    <RepositoryUrl>https://github.com/avolutions/baf-templates</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\LICENSE" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+</Project>
