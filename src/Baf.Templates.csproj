@@ -10,7 +10,7 @@
     <Title>Avolutions BAF Templates</Title>
     <Company>Avolutions</Company>
     <Authors>Alexander Vogt</Authors>
-    <Description>Templates to create pre configured app with BAF.</Description>
+    <Description>Project templates for creating new applications with Avolutions Business Application Framework (BAF).</Description>
     <RepositoryUrl>https://github.com/avolutions/baf-templates</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>

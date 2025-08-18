@@ -1,4 +1,4 @@
-# BAF Templates
+# Avolutions BAF Templates
 
 Project templates for creating new applications with Avolutions Business Application Framework (BAF).
 

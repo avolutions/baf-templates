@@ -17,11 +17,11 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
-      - name: Pack template
+      - name: Pack nuget package
         working-directory: src
         run: dotnet pack -c Release -o ../nupkgs
 
-      - name: Publish to NuGet
+      - name: Publish nuget package
         run: |
           dotnet nuget push ./nupkgs/*.nupkg \
             --api-key ${{ secrets.NUGET_API_KEY }} \
