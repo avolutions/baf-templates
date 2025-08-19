@@ -2,15 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
 
     <PackageType>Template</PackageType>
     <PackageId>Avolutions.Baf.Templates</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
 
     <Title>Avolutions BAF Templates</Title>
     <Company>Avolutions</Company>
     <Authors>Alexander Vogt</Authors>
-    <Description>Templates to create pre configured app with BAF.</Description>
+    <Description>Project templates for creating new applications with Avolutions Business Application Framework (BAF).</Description>
     <RepositoryUrl>https://github.com/avolutions/baf-templates</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -20,7 +21,9 @@
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="" />
     <None Include="..\LICENSE" Pack="true" Visible="false" PackagePath="" />
-    <None Include="Baf.App\**\*" Pack="true" PackagePath="content/Baf.App" />
+    <None Include="baf-*/**/*"
+          Pack="true"
+          PackagePath="content/"
+          Exclude="**/bin/**;**/obj/**;**/*.user;**/*.lock.json" />
   </ItemGroup>
-
 </Project>

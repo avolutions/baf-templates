@@ -1,15 +1,29 @@
-# BAF Templates
+# Avolutions BAF Templates
 
 Project templates for creating new applications with Avolutions Business Application Framework (BAF).
 
 ## Install
 
 ```bash
-dotnet new install Avolutions.Baf.Template
+dotnet new install Avolutions.Baf.Templates
 ```
 
-## Usage
+## Templates
+
+### Blazor
+
+Create new Blazor app:
+```bash
+dotnet new baf-blazor -n MyApp
+```
+
+Apply BAF migrations:
+```bash
+dotnet ef migrations add AddBafTables
+```
 
 ```bash
-dotnet new baf -n MyApp
+dotnet ef database update
 ```
+
+Start the app.
